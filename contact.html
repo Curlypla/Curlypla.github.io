@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="BUT, Vannes, Web">
+    <meta name="author" content="Raphael Mille">
+    <meta name="description" content="ma première page web">
+    <title>CV de Luke Baffait</title>
+</head>
+<body>
+    <font face="Georgia" size="5px">
+        <center>
+            <h1>Contactez-moi</h1>
+            <form action="envoyer_contact.php" method="post">
+                <label for="nom">Nom :</label><br>
+                <input type="text" id="nom" name="nom" required><br><br>
+                
+                <label for="email">Email :</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                    
+                <label for="message">Message :</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                
+                <input type="submit" value="Envoyer">
+            </form>
+        </center>
+    </font>
+</body>
+</html>
